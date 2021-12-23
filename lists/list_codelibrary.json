@@ -1,0 +1,46 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "codelibrary"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "Category",
+            "name": "code_category"
+        },
+        {
+            "id": "column_1",
+            "label": "ID",
+            "name": "id"
+        },
+        {
+            "id": "column_2",
+            "label": "Paste Code Here",
+            "name": "code_Capture"
+        },
+        {
+            "id": "column_3",
+            "label": "Tag",
+            "name": "codeTag"
+        },
+        {
+            "id": "column_4",
+            "label": "Title",
+            "name": "codeTitle"
+        }
+    ],
+    "filters": [],
+    "id": "list_codelibrary",
+    "name": "List - Form: Code Library",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
