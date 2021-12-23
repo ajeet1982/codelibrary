@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>beanshellcodelibrary</id>
+   <version></version>
+   <name>Al-Shirawi : Code Library</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
