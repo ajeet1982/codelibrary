@@ -22,23 +22,19 @@
                 "className": "org.joget.plugin.enterprise.CrudMenu",
                 "properties": {
                     "add-afterSaved": "list",
-                    "add-afterSavedRedirectParamName": "",
-                    "add-afterSavedRedirectParamvalue": "",
-                    "add-afterSavedRedirectUrl": "",
                     "add-cancelButtonLabel": "",
                     "add-customFooter": "",
                     "add-customHeader": "",
                     "add-messageShowAfterComplete": "",
                     "add-saveButtonLabel": "",
                     "addFormId": "codelibrary",
-                    "buttonPosition": "bottomLeft",
+                    "buttonPosition": "topLeft",
+                    "cacheAllLinks": "",
+                    "cacheListAction": "",
                     "checkboxPosition": "left",
                     "customId": "codelibrary_crud",
                     "datalistId": "list_codelibrary",
                     "edit-afterSaved": "list",
-                    "edit-afterSavedRedirectParamName": "",
-                    "edit-afterSavedRedirectParamvalue": "",
-                    "edit-afterSavedRedirectUrl": "",
                     "edit-allowRecordTraveling": "",
                     "edit-backButtonLabel": "",
                     "edit-customFooter": "",
@@ -53,23 +49,33 @@
                     "edit-readonlyLabel": "",
                     "edit-saveButtonLabel": "",
                     "editFormId": "codelibrary",
+                    "enableOffline": "",
                     "id": "ac98591b-74d7-4d6a-9972-4e2b324cb962",
                     "keyName": "",
-                    "label": "Manage Form: Code Library",
+                    "label": "Add Code -Scripts",
+                    "list-abortRelatedRunningProcesses": "",
+                    "list-confirmation": "",
                     "list-customFooter": "",
                     "list-customHeader": "",
-                    "list-deleteButtonLabel": "",
+                    "list-deleteButtonLabel": "Do you want to delete?",
+                    "list-deleteFiles": "",
+                    "list-deleteGridData": "",
+                    "list-deleteSubformData": "",
                     "list-editLinkLabel": "",
+                    "list-editLinkTarget": "",
                     "list-moreActions": [],
                     "list-newButtonLabel": "",
+                    "list-newLinkTarget": "",
                     "list-showDeleteButton": "yes",
                     "rowCount": "true",
-                    "selectionType": "multiple"
+                    "selectionType": "multiple",
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": ""
                 }
             }],
             "properties": {
                 "id": "category-41a3ed9e-a7b9-4329-9b3e-8793d91831f3",
-                "label": "<i class='fa fa-tasks'><\/i>Manage Form: Code Library"
+                "label": "<i class=\"fa fa-tasks\"><\/i>Add Code Scripts"
             }
         },
         {
@@ -124,8 +130,14 @@
                 }
             }],
             "properties": {
+                "comment": "",
+                "hide": "",
                 "id": "category-be108363-79e0-4ac1-906a-0b67da1fe519",
-                "label": "<i class='fa fa-tasks'><\/i>Manage Profile: Category"
+                "label": "<i class='fa fa-tasks'><\/i>Add Category",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                }
             }
         }
     ],
@@ -139,8 +151,6 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
-        "mobileCacheEnabled": "",
-        "mobileViewDisabled": "",
         "permission": {
             "className": "",
             "properties": {}
@@ -153,6 +163,8 @@
                 "buttonTextColor": "WHITE",
                 "fontColor": "WHITE",
                 "menuFontColor": "BLACK",
+                "mobileCacheEnabled": "",
+                "mobileViewDisabled": "",
                 "primaryColor": "INDIGO",
                 "themeScheme": "light"
             }
