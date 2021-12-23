@@ -13,27 +13,46 @@
             "name": "code_category"
         },
         {
-            "id": "column_1",
-            "label": "ID",
-            "name": "id"
-        },
-        {
-            "id": "column_2",
-            "label": "Paste Code Here",
-            "name": "code_Capture"
+            "id": "column_4",
+            "label": "Title",
+            "name": "codeTitle"
         },
         {
             "id": "column_3",
             "label": "Tag",
             "name": "codeTag"
-        },
-        {
-            "id": "column_4",
-            "label": "Title",
-            "name": "codeTitle"
         }
     ],
-    "filters": [],
+    "considerFilterWhenGetTotal": "",
+    "filters": [
+        {
+            "id": "filter_1",
+            "label": "Title",
+            "name": "codeTitle",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_2",
+            "label": "Category",
+            "name": "code_category",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        },
+        {
+            "id": "filter_0",
+            "label": "Tag",
+            "name": "codeTag",
+            "type": {
+                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
+                "properties": {}
+            }
+        }
+    ],
     "id": "list_codelibrary",
     "name": "List - Form: Code Library",
     "order": "",
