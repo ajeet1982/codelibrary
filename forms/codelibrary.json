@@ -52,6 +52,29 @@
                     }
                 },
                 {
+                    "className": "org.joget.apps.form.lib.SelectBox",
+                    "properties": {
+                        "controlField": "",
+                        "id": "code_category",
+                        "label": "Category",
+                        "multiple": "",
+                        "options": [],
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "readonly": "",
+                        "readonlyLabel": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "value": "",
+                        "workflowVariable": ""
+                    }
+                },
+                {
                     "className": "org.joget.plugin.enterprise.RichTextEditorField",
                     "properties": {
                         "editor": "",
