@@ -158,9 +158,10 @@
         },
         "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.ModernTheme",
+            "className": "org.joget.plugin.enterprise.EnterpriseTheme",
             "properties": {
                 "css": "",
+                "customBanner": "",
                 "customFooter": "",
                 "customHeader": "",
                 "js": "",
@@ -177,8 +178,7 @@
                 "mobileViewLogoHeight": "",
                 "mobileViewLogoUrl": "",
                 "mobileViewLogoWidth": "",
-                "mobileViewTranslucent": "true",
-                "sideBar": ""
+                "mobileViewTranslucent": "true"
             }
         },
         "userviewDescription": "",
