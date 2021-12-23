@@ -1,0 +1,31 @@
+{
+    "actions": [],
+    "binder": {
+        "className": "org.joget.plugin.enterprise.AdvancedFormRowDataListBinder",
+        "properties": {"formDefId": "profilecodeCategory"}
+    },
+    "buttonPosition": "bottomLeft",
+    "checkboxPosition": "left",
+    "columns": [
+        {
+            "id": "column_0",
+            "label": "Category",
+            "name": "category"
+        },
+        {
+            "id": "column_1",
+            "label": "ID",
+            "name": "id"
+        }
+    ],
+    "filters": [],
+    "id": "list_profilecodeCategory",
+    "name": "List - Profile: Category",
+    "order": "",
+    "orderBy": "",
+    "pageSize": 0,
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "rowActions": [],
+    "showPageSizeSelector": "true",
+    "useSession": "false"
+}
