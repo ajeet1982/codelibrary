@@ -87,14 +87,15 @@
                 {
                     "className": "org.joget.plugin.enterprise.RichTextEditorField",
                     "properties": {
-                        "editor": "",
+                        "editor": "quill",
                         "height": "",
                         "id": "code_Capture",
                         "label": "Paste Code Here",
-                        "mode": "full",
                         "permissionType": "",
                         "placeholder": "Copy and paste code here",
+                        "qmode": "",
                         "readonly": "",
+                        "switch": "true",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
