@@ -38,7 +38,7 @@
                     "keyName": "",
                     "label": "Programming Scripts",
                     "list-customFooter": "",
-                    "list-customHeader": "",
+                    "list-customHeader": "<div>Scripts:<\/div>",
                     "list-editLinkLabel": "",
                     "list-editLinkTarget": "",
                     "list-moreActions": [],
