@@ -151,24 +151,50 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#"
     },
     "setting": {"properties": {
+        "hideThisUserviewInAppCenter": "",
         "permission": {
             "className": "",
             "properties": {}
         },
+        "tempDisablePermissionChecking": "",
         "theme": {
-            "className": "org.joget.plugin.enterprise.ProgressiveTheme",
+            "className": "joget.org.AngleTheme",
             "properties": {
-                "accentColor": "BLUE",
-                "buttonColor": "ORANGE",
-                "buttonTextColor": "WHITE",
-                "fontColor": "WHITE",
-                "menuFontColor": "BLACK",
-                "mobileCacheEnabled": "",
-                "mobileViewDisabled": "",
-                "primaryColor": "INDIGO",
-                "themeScheme": "light"
+                "css": "",
+                "disableHelpGuide": "",
+                "disablePush": "",
+                "disablePwa": "",
+                "dx8buttonBackground": "#5D9CEC",
+                "dx8buttonColor": "#FFFFFF",
+                "dx8fontColor": "#FFFFFF",
+                "dx8linkColor": "#5D9CEC",
+                "dx8menuRowCountColor": "#27C24C",
+                "dx8navLinkColor": "#000000",
+                "dx8primaryColor": "#23B7E5",
+                "enableResponsiveSwitch": "true",
+                "fav_icon": "",
+                "formElementColor": "#5D9CEC",
+                "homeAttractBanner": "",
+                "homeUrl": "",
+                "horizontal_menu": "",
+                "inbox": "current",
+                "js": "",
+                "loginPageBottom": "",
+                "loginPageTop": "",
+                "logo": "",
+                "profile": "",
+                "removeAssignmentTitle": "",
+                "shortcut": [],
+                "shortcutLinkLabel": "Shortcut",
+                "subfooter": "",
+                "subheader": "",
+                "urlsToCache": "",
+                "userImage": "",
+                "userMenu": [],
+                "usermenu-style-background-image": ""
             }
         },
-        "userviewDescription": ""
+        "userviewDescription": "",
+        "userview_thumbnail": ""
     }}
 }
