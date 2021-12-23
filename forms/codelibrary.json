@@ -103,7 +103,7 @@
             "comment": "",
             "id": "section1",
             "join": "",
-            "label": "Add Code Library",
+            "label": "Maintain Code Library",
             "loadBinder": {
                 "className": "",
                 "properties": {}
