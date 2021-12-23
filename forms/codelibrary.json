@@ -60,8 +60,18 @@
                         "multiple": "",
                         "options": [],
                         "optionsBinder": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                            "properties": {
+                                "addEmptyOption": "true",
+                                "cacheInterval": "",
+                                "emptyLabel": "Select One",
+                                "extraCondition": "",
+                                "formDefId": "profilecodeCategory",
+                                "groupingColumn": "",
+                                "idColumn": "category",
+                                "labelColumn": "category",
+                                "useAjax": "true"
+                            }
                         },
                         "readonly": "",
                         "readonlyLabel": "",
