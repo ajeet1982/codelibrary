@@ -35,12 +35,35 @@
             }
         },
         {
+            "datalist_type": "filter",
+            "filterParamName": "d-2582415-fn_code_category",
+            "hidden": "",
             "id": "filter_2",
             "label": "Category",
             "name": "code_category",
             "type": {
-                "className": "org.joget.apps.datalist.lib.TextFieldDataListFilterType",
-                "properties": {}
+                "className": "org.joget.plugin.enterprise.SelectBoxDataListFilterType",
+                "properties": {
+                    "controlField": "",
+                    "defaultValue": "",
+                    "multiple": "",
+                    "options": [],
+                    "optionsBinder": {
+                        "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        "properties": {
+                            "addEmptyOption": "true",
+                            "cacheInterval": "",
+                            "emptyLabel": "",
+                            "extraCondition": "",
+                            "formDefId": "profilecodeCategory",
+                            "groupingColumn": "",
+                            "idColumn": "category",
+                            "labelColumn": "category",
+                            "useAjax": "true"
+                        }
+                    },
+                    "size": ""
+                }
             }
         },
         {
