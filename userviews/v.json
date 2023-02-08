@@ -137,8 +137,11 @@
     "setting": {"properties": {
         "hideThisUserviewInAppCenter": "",
         "permission": {
-            "className": "",
-            "properties": {}
+            "className": "org.joget.apps.userview.lib.GroupPermission",
+            "properties": {
+                "allowedGroupIds": "systemAdmin",
+                "orgId": ""
+            }
         },
         "tempDisablePermissionChecking": "",
         "theme": {
