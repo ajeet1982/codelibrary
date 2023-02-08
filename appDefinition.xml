@@ -10,6 +10,15 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
    <messageList/>
-   <resourceList/>
+   <resourceList>
+      <appResource>
+         <id>fav-68x69.png</id>
+         <appId>beanshellcodelibrary</appId>
+         <appVersion>1</appVersion>
+         <filesize>3417</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+   </resourceList>
    <license>RM33qlkc6ETQnIuDf7GZ1O9IIPBRktPcPqRsCmCsBa2C8QfXsDTngW5GbNIYjrEpoyY0VId/ROS1SLrC4nw9TXPXhI8kahS5xUWfG9phLBc=</license>
 </appDefinition>
