@@ -19,6 +19,14 @@
          <permissionClass></permissionClass>
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
+      <appResource>
+         <id>logo.jpg</id>
+         <appId>beanshellcodelibrary</appId>
+         <appVersion>1</appVersion>
+         <filesize>10835</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
    </resourceList>
    <license>RM33qlkc6ETQnIuDf7GZ1O9IIPBRktPcPqRsCmCsBa2C8QfXsDTngW5GbNIYjrEpoyY0VId/ROS1SLrC4nw9TXPXhI8kahS5xUWfG9phLBc=</license>
 </appDefinition>
