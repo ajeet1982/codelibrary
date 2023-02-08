@@ -92,7 +92,7 @@
                     "enableOffline": "",
                     "id": "7d47015b-d8a1-4150-a0aa-87ae08a09676",
                     "keyName": "",
-                    "label": "Add Category",
+                    "label": "<i class=\"fa fa-adjust\" aria-hidden=\"true\" style=\"color:white;\"><\/i>  Add Category",
                     "list-abortRelatedRunningProcesses": "",
                     "list-confirmation": "",
                     "list-customFooter": "",
