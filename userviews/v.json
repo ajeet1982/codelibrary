@@ -107,7 +107,7 @@
                     "list-newButtonLabel": "",
                     "list-newLinkTarget": "",
                     "list-showDeleteButton": "yes",
-                    "rowCount": "true",
+                    "rowCount": "",
                     "selectionType": "multiple",
                     "userviewCacheDuration": "",
                     "userviewCacheScope": ""
