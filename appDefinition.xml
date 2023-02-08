@@ -20,6 +20,14 @@
          <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
       </appResource>
       <appResource>
+         <id>loginbackg.jpg</id>
+         <appId>beanshellcodelibrary</appId>
+         <appVersion>1</appVersion>
+         <filesize>655648</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+      <appResource>
          <id>logo.jpg</id>
          <appId>beanshellcodelibrary</appId>
          <appVersion>1</appVersion>
