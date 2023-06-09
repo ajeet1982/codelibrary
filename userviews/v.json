@@ -8,7 +8,7 @@
                     "add-afterSaved": "list",
                     "add-cancelButtonLabel": "",
                     "add-customFooter": "",
-                    "add-customHeader": "",
+                    "add-customHeader": "<script>\n    $(document).ready(function(){\n        // Filter form\n        filters = $(\"#codeTag\");\n        // Filter ID\n        title = $(\"#d-2582415-fn_codeTag\");\n        // Need to give a small delay to allow the page to fully load\n        setTimeout(function(){\n            // Submit button\n            btn = filters.find(\".waves-button-input\")[0];\n            btn.onclick = function(event){\n                if(title.val() == ''){\n                    alert(\"Title must be designated\");\n                    event.preventDefault();\n                }     \n            };\n        },250); // Increase this value to >1000 if script doesnt run properly\n    })\n<\/script>",
                     "add-messageShowAfterComplete": "",
                     "add-saveButtonLabel": "",
                     "addFormId": "codelibrary",
