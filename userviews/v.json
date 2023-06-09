@@ -38,7 +38,7 @@
                     "keyName": "",
                     "label": "<i class=\"fa fa-file-code-o\" aria-hidden=\"true\" style=\"color:white;\"><\/i> Add Code Scripts",
                     "list-customFooter": "",
-                    "list-customHeader": "<div class=\"headerclass\">Code Details<\/div>",
+                    "list-customHeader": "<div class=\"headerclass\">Code Details<\/div>\n<script>\n    $(document).ready(function(){\n        // Filter form\n        filters = $(\"#codeTag\");\n        // Filter ID\n        title = $(\"#d-2582415-fn_codeTag\");\n        // Need to give a small delay to allow the page to fully load\n        setTimeout(function(){\n            // Submit button\n            btn = filters.find(\".waves-button-input\")[0];\n            btn.onclick = function(event){\n                if(title.val() == ''){\n                    alert(\"Title must be designated\");\n                    event.preventDefault();\n                }     \n            };\n        },250); // Increase this value to >1000 if script doesnt run properly\n    })\n<\/script>",
                     "list-editLinkLabel": "",
                     "list-editLinkTarget": "",
                     "list-moreActions": [],
