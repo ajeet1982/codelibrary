@@ -37,7 +37,7 @@
                     "id": "ac98591b-74d7-4d6a-9972-4e2b324cb962",
                     "keyName": "",
                     "label": "<i class=\"fa fa-file-code-o\" aria-hidden=\"true\" style=\"color:white;\"><\/i> Add Code Scripts",
-                    "list-customFooter": "<script>\n    $(document).ready(function(){\n        // Filter form\n        filters = $(\"#codelibrary_crud\");\n        // Filter ID\n        title = $(\"#d-2582415-fn_codeTag\");\n        // Need to give a small delay to allow the page to fully load\n        setTimeout(function(){\n            // Submit button\n            btn = filters.find(\".waves-button-input\")[0];\n            btn.onclick = function(event){\n                if(title.val() == ''){\n                    alert(\"Please select company name.\");\n                    event.preventDefault();\n                }     \n            };\n        },250); // Increase this value to >1000 if script doesnt run properly\n    })\n<\/script>",
+                    "list-customFooter": "",
                     "list-customHeader": "<div class=\"headerclass\">Code Details<\/div>\n",
                     "list-editLinkLabel": "",
                     "list-editLinkTarget": "",
