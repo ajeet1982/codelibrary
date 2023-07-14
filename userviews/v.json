@@ -15,7 +15,7 @@
                     "buttonPosition": "topLeft",
                     "cacheAllLinks": "",
                     "cacheListAction": "",
-                    "checkboxPosition": "left",
+                    "checkboxPosition": "no",
                     "customId": "codelibrary_crud",
                     "datalistId": "list_codelibrary",
                     "edit-afterSaved": "list",
