@@ -29,6 +29,28 @@
             "label": "Created By Name",
             "name": "createdByName",
             "sortable": "false"
+        },
+        {
+            "action": {
+                "className": "",
+                "properties": {}
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "filterable": true,
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "true",
+            "id": "column_2",
+            "include_export": "",
+            "label": "Created By",
+            "name": "createdBy",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         }
     ],
     "considerFilterWhenGetTotal": "",
