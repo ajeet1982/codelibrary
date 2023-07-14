@@ -166,7 +166,7 @@
                 "headerTextColor": "#FFFFFF",
                 "homeAttractBanner": "",
                 "homeUrl": "",
-                "horizontal_menu": "true",
+                "horizontal_menu": "horizontal_inline",
                 "inbox": "current",
                 "js": "",
                 "loginBackgroudImage": "#appResource.loginbackg.jpg#",
