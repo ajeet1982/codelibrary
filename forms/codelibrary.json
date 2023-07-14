@@ -93,7 +93,7 @@
                         "label": "Paste Code Here",
                         "permissionType": "",
                         "placeholder": "Copy and paste code here",
-                        "qmode": "",
+                        "qmode": "full",
                         "readonly": "",
                         "switch": "true",
                         "validator": {
