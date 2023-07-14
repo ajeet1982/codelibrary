@@ -126,6 +126,50 @@
                     }
                 }
             }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.FormMenu",
+                "properties": {
+                    "actionAfterSaved": "",
+                    "actionOnCancel": "",
+                    "cancelButtonLabel": "",
+                    "customFooter": "",
+                    "customHeader": "",
+                    "customId": "editCodeLibrary",
+                    "enableOffline": "",
+                    "fieldPassover": "",
+                    "fieldPassoverMethod": "append",
+                    "formId": "codelibrary",
+                    "id": "31179B12FB254585B87634C8DB8C82D8",
+                    "keyName": "",
+                    "label": "Edit Code Library",
+                    "loadDataWithKey": "",
+                    "messageShowAfterComplete": "",
+                    "paramName": "",
+                    "readonly": "",
+                    "readonlyLabel": "",
+                    "redirectTargetOnCancel": "top",
+                    "redirectTargetOnComplete": "",
+                    "redirectUrlAfterComplete": "codelibrary_crud",
+                    "redirectUrlOnCancel": "codelibrary_crud",
+                    "showInPopupDialog": "",
+                    "submitButtonLabel": "",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": ""
+                }
+            }],
+            "properties": {
+                "comment": "",
+                "hide": "yes",
+                "id": "category-7FFF2F5395EF48D78191E531FDCF7AB7",
+                "label": "Hide",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                }
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.Userview",
