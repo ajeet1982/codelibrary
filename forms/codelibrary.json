@@ -1,96 +1,164 @@
 {
     "className": "org.joget.apps.form.model.Form",
-    "elements": [{
-        "className": "org.joget.apps.form.model.Section",
-        "elements": [{
-            "className": "org.joget.apps.form.model.Column",
+    "elements": [
+        {
+            "className": "org.joget.apps.form.model.Section",
             "elements": [
                 {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "codeTitle",
-                        "label": "Title",
-                        "maxlength": "",
-                        "placeholder": "",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.SelectBox",
                             "properties": {
-                                "mandatory": "true",
-                                "message": "",
-                                "type": ""
+                                "controlField": "",
+                                "id": "code_category",
+                                "label": "Category",
+                                "multiple": "",
+                                "options": [],
+                                "optionsBinder": {
+                                    "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                                    "properties": {
+                                        "addEmptyOption": "true",
+                                        "cacheInterval": "",
+                                        "emptyLabel": "Select One",
+                                        "extraCondition": "",
+                                        "formDefId": "profilecodeCategory",
+                                        "groupingColumn": "",
+                                        "idColumn": "category",
+                                        "labelColumn": "category",
+                                        "useAjax": "true"
+                                    }
+                                },
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
                             }
                         },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.TextField",
-                    "properties": {
-                        "encryption": "",
-                        "id": "codeTag",
-                        "label": "Tag",
-                        "maxlength": "",
-                        "placeholder": "e.g. Joget,Lotus,Oracle,PHP,Python,.Net, RPA",
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "storeNumeric": "",
-                        "style": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "controlField": "",
-                        "id": "code_category",
-                        "label": "Category",
-                        "multiple": "",
-                        "options": [],
-                        "optionsBinder": {
-                            "className": "org.joget.apps.form.lib.FormOptionsBinder",
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
                             "properties": {
-                                "addEmptyOption": "true",
-                                "cacheInterval": "",
-                                "emptyLabel": "Select One",
-                                "extraCondition": "",
-                                "formDefId": "profilecodeCategory",
-                                "groupingColumn": "",
-                                "idColumn": "category",
-                                "labelColumn": "category",
-                                "useAjax": "true"
+                                "encryption": "",
+                                "id": "codeTitle",
+                                "label": "Title",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "",
+                                "style": "",
+                                "validator": {
+                                    "className": "org.joget.apps.form.lib.DefaultValidator",
+                                    "properties": {
+                                        "mandatory": "true",
+                                        "message": "",
+                                        "type": ""
+                                    }
+                                },
+                                "value": "",
+                                "workflowVariable": ""
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                },
+                {
+                    "className": "org.joget.apps.form.model.Column",
+                    "elements": [
+                        {
+                            "className": "org.joget.apps.form.lib.TextField",
+                            "properties": {
+                                "encryption": "",
+                                "id": "codeTag",
+                                "label": "Tag",
+                                "maxlength": "",
+                                "placeholder": "e.g. Joget,Lotus,Oracle,PHP,Python,.Net, RPA",
+                                "readonly": "",
+                                "readonlyLabel": "",
+                                "size": "",
+                                "storeNumeric": "",
+                                "style": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                },
+                                "value": "",
+                                "workflowVariable": ""
                             }
                         },
-                        "readonly": "",
-                        "readonlyLabel": "",
-                        "size": "",
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "value": "",
-                        "workflowVariable": ""
-                    }
+                        {
+                            "className": "org.joget.apps.form.lib.FileUpload",
+                            "properties": {
+                                "attachment": "",
+                                "fileType": "",
+                                "fileTypeMsg": "Invalid file type",
+                                "id": "attachment_Library",
+                                "label": "Attachment",
+                                "maxSize": "3000",
+                                "maxSizeMsg": "File size limit exceeded",
+                                "multiple": "true",
+                                "padding": "",
+                                "permissionType": "",
+                                "readonly": "",
+                                "removeFile": "",
+                                "resizeHeight": "",
+                                "resizeMethod": "",
+                                "resizeQuality": "0.8",
+                                "resizeWidth": "",
+                                "size": "",
+                                "validator": {
+                                    "className": "",
+                                    "properties": {}
+                                }
+                            }
+                        }
+                    ],
+                    "properties": {"width": "49%"}
+                }
+            ],
+            "properties": {
+                "comment": "",
+                "id": "section1",
+                "join": "",
+                "label": "Add Programming Scripts",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
                 },
-                {
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
+        },
+        {
+            "className": "org.joget.apps.form.model.Section",
+            "elements": [{
+                "className": "org.joget.apps.form.model.Column",
+                "elements": [{
                     "className": "org.joget.plugin.enterprise.RichTextEditorField",
                     "properties": {
                         "editor": "quill",
-                        "height": "850px",
+                        "height": "450px",
                         "id": "code_Capture",
-                        "label": "Paste Code Here",
+                        "label": "",
                         "permissionType": "",
                         "placeholder": "Copy and paste code here",
                         "qmode": "full",
@@ -106,36 +174,36 @@
                         },
                         "value": ""
                     }
-                }
-            ],
-            "properties": {"width": "100%"}
-        }],
-        "properties": {
-            "comment": "",
-            "id": "section1",
-            "join": "",
-            "label": "Add Programming Scripts",
-            "loadBinder": {
-                "className": "",
-                "properties": {}
-            },
-            "permission": {
-                "className": "",
-                "properties": {}
-            },
-            "permissionReadonly": "",
-            "readonly": "",
-            "readonlyLabel": "",
-            "regex": "",
-            "reverse": "",
-            "storeBinder": {
-                "className": "",
-                "properties": {}
-            },
-            "visibilityControl": "",
-            "visibilityValue": ""
+                }],
+                "properties": {"width": "100%"}
+            }],
+            "properties": {
+                "comment": "",
+                "id": "section2",
+                "join": "",
+                "label": "Copy and Paste Code",
+                "loadBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "permissionReadonly": "",
+                "readonly": "",
+                "readonlyLabel": "",
+                "regex": "",
+                "reverse": "",
+                "storeBinder": {
+                    "className": "",
+                    "properties": {}
+                },
+                "visibilityControl": "",
+                "visibilityValue": ""
+            }
         }
-    }],
+    ],
     "properties": {
         "description": "",
         "id": "codelibrary",
