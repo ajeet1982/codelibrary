@@ -24,8 +24,14 @@
             "datalist_type": "column",
             "exclude_export": "",
             "format": {
-                "className": "",
-                "properties": {}
+                "className": "org.joget.apps.datalist.lib.DefaultFormatter",
+                "properties": {
+                    "color": "red!important",
+                    "field": "",
+                    "formDefId": "",
+                    "formatting": "b",
+                    "size": "16px"
+                }
             },
             "headerAlignment": "",
             "hidden": "false",
