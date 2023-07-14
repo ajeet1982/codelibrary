@@ -8,9 +8,33 @@
     "checkboxPosition": "left",
     "columns": [
         {
+            "action": {
+                "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+                "properties": {
+                    "confirmation": "",
+                    "href": "viewCodeLibrary",
+                    "hrefColumn": "id",
+                    "hrefParam": "id",
+                    "label": "Hyperlink",
+                    "target": "_self",
+                    "visible": ""
+                }
+            },
+            "alignment": "",
+            "datalist_type": "column",
+            "exclude_export": "",
+            "format": {
+                "className": "",
+                "properties": {}
+            },
+            "headerAlignment": "",
+            "hidden": "false",
             "id": "column_0",
             "label": "Category",
-            "name": "code_category"
+            "name": "code_category",
+            "sortable": "false",
+            "style": "",
+            "width": ""
         },
         {
             "id": "column_4",
@@ -112,49 +136,29 @@
     "orderBy": "",
     "pageSize": 0,
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
-    "rowActions": [
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_0",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "editCodeLibrary",
-                "hrefColumn": "id",
-                "hrefParam": "id",
-                "label": "Edit",
-                "rules": [{
-                    "field": "createdBy",
-                    "join": "AND",
-                    "operator": "=",
-                    "value": "#currentUser.username#"
-                }],
-                "target": "_self"
-            },
-            "type": "text"
+    "rowActions": [{
+        "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
+        "icon": "<i class=\"fas fa-link\"><\/i>",
+        "id": "rowAction_0",
+        "label": "Hyperlink",
+        "name": "Data List Hyperlink Action",
+        "properties": {
+            "confirmation": "",
+            "datalist_type": "row_action",
+            "href": "editCodeLibrary",
+            "hrefColumn": "id",
+            "hrefParam": "id",
+            "label": "Edit",
+            "rules": [{
+                "field": "createdBy",
+                "join": "AND",
+                "operator": "=",
+                "value": "#currentUser.username#"
+            }],
+            "target": "_self"
         },
-        {
-            "className": "org.joget.apps.datalist.lib.HyperlinkDataListAction",
-            "icon": "<i class=\"fas fa-link\"><\/i>",
-            "id": "rowAction_1",
-            "label": "Hyperlink",
-            "name": "Data List Hyperlink Action",
-            "properties": {
-                "confirmation": "",
-                "datalist_type": "row_action",
-                "href": "viewCodeLibrary",
-                "hrefColumn": "id",
-                "hrefParam": "id",
-                "label": "View",
-                "rules": [],
-                "target": "_self"
-            },
-            "type": "text"
-        }
-    ],
+        "type": "text"
+    }],
     "showPageSizeSelector": "true",
     "useSession": "false"
 }
