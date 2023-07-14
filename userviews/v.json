@@ -119,8 +119,11 @@
                 "id": "category-be108363-79e0-4ac1-906a-0b67da1fe519",
                 "label": "<i class='fa fa-tasks'><\/i>Add Category",
                 "permission": {
-                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
-                    "properties": {}
+                    "className": "org.joget.apps.userview.lib.GroupPermission",
+                    "properties": {
+                        "allowedGroupIds": "systemAdmin",
+                        "orgId": ""
+                    }
                 }
             }
         }
