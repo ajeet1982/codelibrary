@@ -33,7 +33,7 @@
             "label": "Category",
             "name": "code_category",
             "sortable": "false",
-            "style": "",
+            "style": "color:red",
             "width": ""
         },
         {
