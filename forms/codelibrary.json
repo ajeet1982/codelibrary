@@ -156,7 +156,7 @@
                     "className": "org.joget.plugin.enterprise.RichTextEditorField",
                     "properties": {
                         "editor": "quill",
-                        "height": "450px",
+                        "height": "300px",
                         "id": "code_Capture",
                         "label": "",
                         "permissionType": "",
