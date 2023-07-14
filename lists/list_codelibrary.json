@@ -21,6 +21,14 @@
             "id": "column_3",
             "label": "Tag",
             "name": "codeTag"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "id": "column_1",
+            "label": "Created By Name",
+            "name": "createdByName",
+            "sortable": "false"
         }
     ],
     "considerFilterWhenGetTotal": "",
