@@ -96,7 +96,7 @@
                     "list-abortRelatedRunningProcesses": "",
                     "list-confirmation": "",
                     "list-customFooter": "",
-                    "list-customHeader": "<div class=\"headerclass\">Category Details<\/div>",
+                    "list-customHeader": "",
                     "list-deleteButtonLabel": "",
                     "list-deleteFiles": "",
                     "list-deleteGridData": "",
