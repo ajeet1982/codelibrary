@@ -145,7 +145,7 @@
             "properties": {
                 "confirmation": "",
                 "datalist_type": "row_action",
-                "href": "editCodeLibrary",
+                "href": "viewCodeLibrary",
                 "hrefColumn": "id",
                 "hrefParam": "id",
                 "label": "View",
