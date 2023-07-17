@@ -159,7 +159,7 @@
                 "field": "createdBy",
                 "join": "AND",
                 "operator": "=",
-                "value": "#currentUser.username#"
+                "value": "#currentUser.username##"
             }],
             "target": "_self"
         },
