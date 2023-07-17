@@ -155,12 +155,7 @@
             "hrefColumn": "id",
             "hrefParam": "id",
             "label": "Edit",
-            "rules": [{
-                "field": "createdBy",
-                "join": "AND",
-                "operator": "=",
-                "value": "#currentUser.username##"
-            }],
+            "rules": [],
             "target": "_self"
         },
         "type": "text"
